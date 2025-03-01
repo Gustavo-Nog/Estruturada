@@ -35,11 +35,6 @@
 *.i*86
 *.x86_64
 *.hex
-/*
-!/**/
-!*.c
-!*.h
-!*.gitignore
 
 # Debug files
 *.dSYM/
@@ -56,5 +51,10 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-# Ignorar arquivos de configuração do VS Code
+# Ignorar todos os arquivos sem extensão e configuração do VS Code (executáveis)
+/*
+!/**/
+!*.c
+!*.h
+!*.gitignore
 .vscode/
